@@ -1,0 +1,30 @@
+.movie-image{
+    width: 189px;
+    height: 265px;
+    border-radius: 10px;
+}
+.movie-wrapper{
+    /* width: 100%; */
+    width: 189px;
+    /* border: 1px solid; */
+    
+    /* flex-direction: row; */
+    margin-bottom: 20px;
+}
+.movie-title{
+    max-width: 25ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.movie-container{
+    
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;  
+  
+  
+}
