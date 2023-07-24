@@ -7,7 +7,7 @@ const Trending = ({ data }) => {
   return (
     <div className="mt-3">
       <Container>
-        <h1>Trending</h1>
+        <h2>Trending</h2>
         <div className="movie-container">
           {data.map(function (item) {
             return (

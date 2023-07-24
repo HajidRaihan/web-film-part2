@@ -3,6 +3,12 @@
     height: 265px;
     border-radius: 10px;
 }
+.movie-image:hover{
+    opacity: 0.7;
+    /* transition: ease-in-out; */
+    transition-duration: 100ms;
+    
+}
 .movie-wrapper{
     /* width: 100%; */
     width: 189px;
@@ -11,13 +17,18 @@
     /* flex-direction: row; */
     margin-bottom: 20px;
 }
+.movie-wrapper:hover .movie-title{
+    color: #51557E;
+}
+
 .movie-title{
     max-width: 25ch;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
+    font-weight: bold;
 }
+
 .movie-container{
     
   display: flex;
@@ -27,4 +38,7 @@
   flex-wrap: wrap;  
   
   
+}
+h2{
+    font-weight: bold;
 }

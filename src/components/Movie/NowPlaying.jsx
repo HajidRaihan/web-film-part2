@@ -1,11 +1,12 @@
 import React from "react";
 import { Card, Container, Button } from "react-bootstrap";
+import "./Movie.css";
 
 const NowPlaying = ({ data }) => {
   return (
     <div className="mt-3">
       <Container>
-        <h1>Now Playing</h1>
+        <h2>Now Playing</h2>
         <div className="movie-container">
           {data.map(function (item) {
             return (

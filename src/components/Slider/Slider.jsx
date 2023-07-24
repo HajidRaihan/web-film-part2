@@ -11,7 +11,7 @@ function Slider({ data }) {
     console.log(index);
   };
   return (
-    <Container fluid className="mt-3">
+    <Container fluid>
       <Carousel activeIndex={index} onSelect={handleSelect} id="image-slider">
         {data.map((item) => {
           return (

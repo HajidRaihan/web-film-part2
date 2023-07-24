@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  font: normal 1rem "Open Sans", sans-serif;
+  background-color: #1b2430;
+  color: whitesmoke;
+}
